@@ -92,6 +92,7 @@ section h3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 .section{
     margin-bottom: 50px !important;
@@ -118,4 +119,72 @@ section h3{
 }
 .class .fa-regular{
     font-size: 12px;
+}
+
+
+
+
+/* Responsive design for tablate screen */
+
+@media only screen and (max-width:1000px) {
+    section{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+    }
+    .top-player{
+        padding: 10px;
+    }
+    .blog{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+    }
+    .blog-container img{
+        width: 150px;
+    }
+    .course{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+    }
+    .course{
+        padding: 10px;
+    }
+    .section h3{
+        padding-left: 10px;
+    }
+
+    
+}
+
+/* Responsive desgin for mobile screen */
+
+@media only screen and (max-width:550px) {
+    section{
+        width: 100%;
+    }
+    .course{
+        padding: 10px;
+    }
+    .section h3{
+        padding-left: 10px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-player{
+        padding: 10px;
+    }
+    .blog{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-container img{
+        width: 150px;
+    }
+    .course{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
 }
