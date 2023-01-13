@@ -96,3 +96,26 @@ section h3{
 .section{
     margin-bottom: 50px !important;
 }
+.class{
+    padding: 10px;
+    box-shadow: 0px 0px 2px rgb(220, 217, 217);
+    border-radius: 5px;
+}
+.start_fill{
+    color: rgb(153, 153, 6);
+}
+.start_no-fill{
+    color: grey;
+}
+.time{
+    color: rgb(198, 92, 92);
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.class .fa-regular{
+    font-size: 12px;
+}
