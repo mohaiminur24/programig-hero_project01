@@ -129,6 +129,8 @@ section h3{
 @media only screen and (max-width:1000px) {
     section{
         width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
@@ -163,6 +165,8 @@ section h3{
 @media only screen and (max-width:550px) {
     section{
         width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
     .course{
         padding: 10px;
